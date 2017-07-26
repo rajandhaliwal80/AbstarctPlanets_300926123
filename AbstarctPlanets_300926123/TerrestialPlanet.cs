@@ -33,7 +33,7 @@ namespace AbstarctPlanets_300926123
         public TerrestialPlanet(string name, double diameter, double mass, bool oxygen, int moonCount) : base(name, diameter, mass)
         {
             _oxygen = oxygen;
-
+            _moonCount = moonCount;
         }
         //Implemented Interface Method
         public bool Habitable()
