@@ -15,13 +15,25 @@ using System.Threading.Tasks;
 
 namespace AbstarctPlanets_300926123
 {
-    class TerrestialPlanet
+    class TerrestialPlanet:Planet
     {
         //PRIVATE INSTANCE VARIABLES
         private bool _oxygen;
-        
-        //Constructor---------------------------------------------
 
+        //Constructor---------------------------------------------
+        /// <summary>
+        /// This is the terrestial planet constructor. it takes 5 arguments 3 of them are derived from planet class.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        /// <param name="oxygen"></param>
+        /// <param name="moonCount"></param>
+        public TerrestialPlanet(string name, double diameter, double mass, bool oxygen, int moonCount) : base(name, diameter, mass)
+        {
+            _oxygen = oxygen;
+           
+        }
         //Implemented Interface Method
     }
 }
