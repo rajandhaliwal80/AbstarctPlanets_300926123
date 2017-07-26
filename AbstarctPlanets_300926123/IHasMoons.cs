@@ -17,6 +17,6 @@ namespace AbstarctPlanets_300926123
 {
    public  interface IHasMoons
     {
-        bool Habitable();
+        bool HasMoons();
     }
 }
