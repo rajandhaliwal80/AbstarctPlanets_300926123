@@ -13,13 +13,16 @@ using System.Threading.Tasks;
 /// This is a Abstarct Planet Class
 /// Version 0.1 Creaed Abstract Planet Class
 /// </summary>
-
+/// 
 namespace AbstarctPlanets_300926123
 {
-    class Program
+    class Planet
     {
-        static void Main(string[] args)
-        {
-        }
+        //PRIVATE INSTANCE VARIABLES 
+
+        //PUBLIC PROPERTIES
+
+        //CONSTRUCTORS-----------------------------------------------
+        
     }
 }
