@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 /// 7/25/2017
 /// Comp123 Assignment04 Abstract Classes
 /// This is a Abstarct Planet Class
-/// Version 0.1 Creaed Abstract Planet Class
+/// Version 0.2 Creaed Abstract Planet Class
 /// </summary>
 /// 
 namespace AbstarctPlanets_300926123
@@ -94,6 +94,23 @@ namespace AbstarctPlanets_300926123
             }
         }
         //CONSTRUCTORS-----------------------------------------------
+        /// <summary>
+        /// This is the main constructor.
+        /// It takes three arguments - name, diameter, mass and assign them to appropriate properties.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        public Planet(string name, double diameter, double mass)
+        {
+            _name = name;
+            _diameter = diameter;
+            _mass = mass;
+        }
+        public override string ToString()
+        {
+            return string.Format("Name is " + Name + "\nIt's Diameter is " + Diameter + "km and Mass is " + Mass + "kgs \n");
+        }
 
     }
 }
