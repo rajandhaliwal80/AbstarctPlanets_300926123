@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 /// 7/25/2017
 /// Comp123 Assignment04 Abstract Classes
 /// This is a Giant Planet Class
-/// Version 0.3 Added Constructor
+/// Final Version
 /// /// </summary>
 /// 
 
 namespace AbstarctPlanets_300926123
 {
-    class GiantPlanet : Planet
+    class GiantPlanet : Planet, IHasMoons, IHAsRings
     {
         //PRIVATE INSTANCE VARIABLES
         private string _type;
