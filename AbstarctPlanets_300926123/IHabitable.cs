@@ -16,6 +16,6 @@ namespace AbstarctPlanets_300926123
 {
     interface IHabitable
     {
-        bool IHabitable();
+        bool Habitable();
     }
 }
