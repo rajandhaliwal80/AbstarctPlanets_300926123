@@ -18,7 +18,8 @@ namespace AbstarctPlanets_300926123
     class TerrestialPlanet
     {
         //PRIVATE INSTANCE VARIABLES
-
+        private bool _oxygen;
+        
         //Constructor---------------------------------------------
 
         //Implemented Interface Method
